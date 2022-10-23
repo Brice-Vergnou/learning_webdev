@@ -1,13 +1,18 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 100%;
 }
 
 h1{
-    margin-top: 0;
+    margin : 50 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
 }
 
-body{
-    background-color: #EFFCFC;
+h2{
+    font-size: 1.5rem;
 }
 
 hr{
@@ -20,4 +25,54 @@ hr{
 
 h1,h2,h3,a{
     color: #66BFBF;
+}
+
+.bottom_cloud{
+    position: absolute;
+}
+
+.top_cloud{
+    margin-top: 5%;
+    position: relative;
+    left : 15%;
+}
+
+.top-container{
+    background-color: #EFFCFC;
+    height: 100vh;
+}
+
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-img{
+    width:25%;
+}
+
+.mountain{
+    position: relative;
+    margin-bottom: 0;
+
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    display: inline-block;
+}
+
+.coding-img{
+    float:left;
+    padding-right: 30px;
+}
+
+.learning-img{
+    float:right;
+    padding-left: 30px;
+}
+
+.penguin-gif{
+    width:15%;
 }
